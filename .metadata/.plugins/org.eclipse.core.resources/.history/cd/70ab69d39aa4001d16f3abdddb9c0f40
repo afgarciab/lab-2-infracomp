@@ -1,0 +1,8 @@
+
+
+public class T extends Thread {
+
+	private static Identificar objId;
+	
+	
+}

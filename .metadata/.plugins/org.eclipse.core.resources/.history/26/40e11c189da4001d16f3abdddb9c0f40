@@ -1,0 +1,21 @@
+import Maximo.Identificar;
+
+public class T extends Thread {
+
+	private static Identificar objId;
+	
+	private static Maximo m;
+	
+	private static int [][] mat;
+	
+	public static run() {
+		
+		int localMax = 0;
+		int id = objId.darNumId();
+		for (int j=0; j<mat[id].length; j++)
+		{
+			if
+		}
+	}
+	
+}

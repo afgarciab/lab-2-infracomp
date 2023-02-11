@@ -1,0 +1,15 @@
+
+public class Id {
+	
+	private static int id = 10;
+	
+	
+	public synchronized int darId(){
+		return id; 
+	}
+	
+	public synchronized void restarId()
+	{
+		id--;
+	}
+}
